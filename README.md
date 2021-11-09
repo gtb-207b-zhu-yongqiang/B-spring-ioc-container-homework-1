@@ -12,6 +12,12 @@
 @Component 已经可以支持声明一个 bean 了，为何还要再弄个 @Bean 出来？
 答案请写在对应分支的 README.md 文件中
 
+```
+@Component是用于自动关联bean的，并且与对应类是默认为一对一的关系。
+
+@Bean是可以更自由地去配置bean的属性，并且对于一些无法自动关联的特殊情况，都可以使用该方法进行配置。
+```
+
 ### Problem 2
 
 分支：p2-starts-from-here
